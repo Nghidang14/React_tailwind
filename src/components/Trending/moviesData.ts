@@ -1,9 +1,14 @@
-import BatmanBegins from '../../assets/batman_begins.jpg'
-import Dune from '../../assets/dune.jpg'
-import Sing2 from '../../assets/sing_2.jpg'
-import SpiderMan from '../../assets/spider_man.jpg'
-import TDKRises from '../../assets/the_dark_knight_rises.jpg'
-import TDK from '../../assets/the_dark_knight.jpg'
+import poke1 from '../../assets/pokemon1.jpg'
+import poke2 from '../../assets/Pokemon2.jpg'
+import poke3 from '../../assets/Pokemon3.jpg'
+import poke4 from '../../assets/Pokemon4.jpg'
+import poke5 from '../../assets/Pokemon5.jpg'
+import poke6 from '../../assets/Pokemon6.jpg'
+import poke7 from '../../assets/Pokemon7.jpg'
+import poke8 from '../../assets/Pokemon8.jpg'
+import poke9 from '../../assets/Pokemon9.jpg'
+import poke10 from '../../assets/Pokemon10.jpg'
+
 
 export interface Movie {
 	src: string
@@ -14,29 +19,63 @@ export interface Movie {
 
 export const moviesData: Movie[] = [
 	{
-		src: BatmanBegins,
-		title: 'Batman Begins',
-		main: 'Christian Bale',
+		src: poke1,
+		title: 'Pokemon Rainbow!',
+		main: 'Satoshi',
 		runtime: '120m'
 	},
-	{ src: Dune, title: 'Dune', main: 'Timothée Chalamet', runtime: '120m' },
-	{ src: Sing2, title: 'Sing 2', main: 'Matthew McConaughey', runtime: '120m' },
-	{
-		src: SpiderMan,
-		title: 'Spider-Man: No Way Home',
-		main: 'Tom Holland',
-		runtime: '120m'
+	{ 
+		src: poke2,
+		title: 'I Choose You!',
+		main: 'Satoshi',
+		runtime: '120m' 
 	},
 	{
-		src: TDKRises,
-		title: 'The Dark Knight Rises',
-		main: 'Christian Bale',
+		src: poke3,
+		title: 'Pokemon Celebrity',
+		main: 'Satoshi',
 		runtime: '120m'
 	},
 	{
-		src: TDK,
-		title: 'The Dark Knight',
-		main: 'Christian Bale',
+		src: poke4,
+		title: 'Pokemon Detective',
+		main: 'Satoshi',
+		runtime: '120m'
+	},
+	{
+		src: poke5,
+		title: 'Pokemon Volcanion',
+		main: 'Satoshi',
+		runtime: '120m'
+	},
+	{
+		src: poke6,
+		title: 'Pokemon Best Wish',
+		main: 'Satoshi',
+		runtime: '120m'
+	},
+	{
+		src: poke7,
+		title: 'I Choose You 2',
+		main: 'Satoshi',
+		runtime: '120m'
+	},
+	{
+		src: poke8,
+		title: 'Pokemon Mewtwo2',
+		main: 'Satoshi',
+		runtime: '120m'
+	},
+	{
+		src: poke9,
+		title: 'Pokemon War',
+		main: 'Satoshi',
+		runtime: '120m'
+	},
+	{
+		src: poke10,
+		title: 'Pokemon Yveltal',
+		main: 'Satoshi',
 		runtime: '120m'
 	}
 ]
